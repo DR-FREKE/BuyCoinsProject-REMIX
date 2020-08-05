@@ -13,7 +13,6 @@ class CoinScreen extends React.Component {
   //set current page to be one
   //set the state of the arrays, and numberperpage
   state = {
-    mydata: [],
     numberperPages: 10,
     numberOfPages: 0,
     pageList: [],
