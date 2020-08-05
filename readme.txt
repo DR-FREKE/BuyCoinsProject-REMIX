@@ -1,0 +1,1 @@
+to run the application, cd into client and run "npm install" then "npm start"
