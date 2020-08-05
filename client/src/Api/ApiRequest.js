@@ -6,6 +6,7 @@ export const makeRequest = async () => {
     const { data } = await response.json();
     return data;
   } else {
-    throw new Error();
+    const { response_error } = await response.json();
+    throw new Error(response_error);
   }
 };
